@@ -7,7 +7,6 @@ var PORT = process.env.PORT || 3000;
 
 var data = fs.readFileSync("db.json");
 var notes = JSON.parse(data);
-let id = notes.length + 1;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -35,7 +34,7 @@ app.get("/api/notes", function (req, res) {
 
 app.post("/api/notes", function (req, res) {
     var newNote = req.body;
-    newNote.id = id;
+    newNote.id = notes.length + 1;
     notes.push(newNote);
     if (newNote) {
         fs.writeFile("db.json", JSON.stringify(notes, null, 4), function (err) {
@@ -61,7 +60,6 @@ app.delete("/api/notes/:id", function (req, res) {
         }
         console.log("Success!");
     });
-
     res.json(notes);
 });
 
