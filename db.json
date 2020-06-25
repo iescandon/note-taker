@@ -1,27 +1,7 @@
 [
     {
-        "title": "EAT",
-        "text": "EAT",
+        "title": "Hello World",
+        "text": "I can code!",
         "id": 1
-    },
-    {
-        "title": "THAT",
-        "text": "THAT",
-        "id": 2
-    },
-    {
-        "title": "BOOTY",
-        "text": "BOOTY",
-        "id": 3
-    },
-    {
-        "title": "LIKE",
-        "text": "LIKE",
-        "id": 4
-    },
-    {
-        "title": "GROCERIES",
-        "text": "GROCERIES",
-        "id": 5
     }
 ]
