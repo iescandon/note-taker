@@ -3,5 +3,10 @@
         "title": "Hello World",
         "text": "I can code!",
         "id": 1
+    },
+    {
+        "title": "Homework",
+        "text": "Study more stuff",
+        "id": 2
     }
 ]
