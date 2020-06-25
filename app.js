@@ -20,14 +20,6 @@ app.get("/notes", function (req, res) {
     res.sendFile(path.join(__dirname, "./public/notes.html"));
 });
 
-// // A function for deleting a note from the db
-// const deleteNote = (id) => {
-//     return $.ajax({
-//         url: "api/notes/" + id,
-//         method: "DELETE",
-//     });
-// };
-
 app.get("/api/notes", function (req, res) {
     res.json(notes);
 });
