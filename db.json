@@ -1,17 +1,12 @@
 [
     {
-        "title": "Hi",
-        "text": "mom",
-        "id": 3
+        "title": "Groceries",
+        "text": "- tomatoes\n- milk\n- bread\n- cheese\n- spinach",
+        "id": "986c0659-6048-4fd9-ab04-765c5a9ab149"
     },
     {
-        "title": "hey",
-        "text": "hey",
-        "id": "4c9ba850-9088-496e-80b3-082d7d6a3d24"
-    },
-    {
-        "title": "Hello",
-        "text": "hello",
-        "id": "8d61f8ef-10b8-4914-b6b4-f434dde68501"
+        "title": "Homework",
+        "text": "codecademy, review videos, algorithm folders",
+        "id": "00647a0b-8132-46c2-83d1-6225abeca5f0"
     }
 ]
