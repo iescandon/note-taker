@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const express = require("express");
+const { uuid } = require("uuidv4");
 
 var app = express();
 var PORT = process.env.PORT || 3000;
@@ -26,7 +27,7 @@ app.get("*", function (req, res) {
 
 app.post("/api/notes", function (req, res) {
     var newNote = req.body;
-    newNote.id = notes.length + 1;
+    newNote.id = uuid();
     notes.push(newNote);
     if (newNote) {
         fs.writeFile("db.json", JSON.stringify(notes, null, 4), function (err) {
