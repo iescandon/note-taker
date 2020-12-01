@@ -6,7 +6,7 @@ https://sleepy-crag-82469.herokuapp.com/
 
 ## Description
 
-This application is designed to function as a note taker. The user can create notes, save notes, view notes, and even delete notes with ease. These notes get pushed to the server allowing for these notes to be stored and not lost. Notes get written to a db.json file. HTML and CSS are simple and minimalistic to make the appliaction aesthetically appealing and user friendly.
+This application is designed to function as a note taker. The user can create notes, save notes, view notes, and even delete notes with ease. These notes get pushed to the server allowing for these notes to be stored and not lost. Notes get written to a db.json file. HTML and CSS are simple and minimalistic to make the application aesthetically appealing and user friendly.
 
 ## Table of Contents
 
